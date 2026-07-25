@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Jonathan - Años Luz Informática. Especialistas en servicios informáticos, redes, servidores y desarrollo de software con más de 20 años de experiencia.">
+    <meta name="theme-color" content="#0B1220">
+    <title>Años Luz Informática | Soluciones Tecnológicas</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navegación -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent"><i class="fa-solid fa-rocket"></i> Años Luz</span> Informática
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#tecnologias" class="nav-link">Tecnologías</a></li>
+                    <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                    <li><a href="#contacto" class="nav-link btn-contact-nav">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section id="inicio" class="hero">
+            <div class="hero-bg-effects">
+                <div class="glow-circle top-left"></div>
+                <div class="glow-circle bottom-right"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <span class="greeting">Hola, bienvenido a Años Luz Informática</span>
+                    <h1 class="hero-title">Impulsando tu negocio hacia el <span class="highlight">futuro tecnológico</span></h1>
+                    <h2 class="hero-subtitle">
+                        Profesor en el área de Programación, Informática y Robótica | Analista Programador | Técnico en Informática
+                    </h2>
+                    <p class="hero-text">
+                        Con más de 20 años de experiencia transformando problemas complejos en soluciones eficientes e innovadoras.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#servicios" class="btn btn-primary">Ver Servicios <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contacto" class="btn btn-secondary">Contactar <i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre mí -->
+        <section id="sobre-mi" class="about section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Sobre Mí</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="about-content glass-card reveal delay-1">
+                    <div class="about-text">
+                        <h3>Pasión por la tecnología y la enseñanza</h3>
+                        <p>Soy un profesional apasionado por el mundo IT con una sólida trayectoria de más de dos décadas. Durante mi carrera, he combinado mi vocación docente como Profesor en el área de Programación, Informática y Robótica con el trabajo de campo como Analista Programador y Técnico en Informática.</p>
+                        <p>En <strong>Años Luz Informática</strong>, mi objetivo es brindar soluciones integrales, desde el mantenimiento de infraestructura hasta el desarrollo de software a medida, siempre con un enfoque centrado en la calidad, la seguridad y el rendimiento.</p>
+                        <p>Mi compromiso es mantener los sistemas de mis clientes funcionando de manera óptima para que ellos puedan enfocarse en hacer crecer sus negocios.</p>
+                        <div class="about-highlights">
+                            <div class="highlight-item"><i class="fa-solid fa-check-circle"></i> Compromiso con la calidad</div>
+                            <div class="highlight-item"><i class="fa-solid fa-check-circle"></i> Soluciones escalables</div>
+                            <div class="highlight-item"><i class="fa-solid fa-check-circle"></i> Soporte integral</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section id="servicios" class="services section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Servicios IT Integrales</h2>
+                    <div class="separator"></div>
+                    <p>Soluciones a medida para potenciar tu infraestructura y desarrollo tecnológico.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Servicio 1 -->
+                    <div class="service-card glass-card reveal">
+                        <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+                        <h3>Servidores y Cloud</h3>
+                        <p>Implementación y administración de servidores locales y en la nube (AWS, Oracle Cloud). Alta disponibilidad y rendimiento.</p>
+                    </div>
+                    <!-- Servicio 2 -->
+                    <div class="service-card glass-card reveal delay-1">
+                        <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Redes y Conectividad</h3>
+                        <p>Diseño, configuración y mantenimiento de redes LAN/WAN seguras y de alta velocidad para empresas.</p>
+                    </div>
+                    <!-- Servicio 3 -->
+                    <div class="service-card glass-card reveal delay-2">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Bases de Datos y Backups</h3>
+                        <p>Gestión de bases de datos relacionales y NoSQL, con políticas estrictas de respaldo automatizado.</p>
+                    </div>
+                    <!-- Servicio 4 -->
+                    <div class="service-card glass-card reveal">
+                        <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Desarrollo de Software</h3>
+                        <p>Creación de aplicaciones web, de escritorio y scripts de automatización adaptados a las necesidades del cliente.</p>
+                    </div>
+                    <!-- Servicio 5 -->
+                    <div class="service-card glass-card reveal delay-1">
+                        <div class="service-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Mantenimiento Técnico</h3>
+                        <p>Mantenimiento preventivo y correctivo de hardware y software para minimizar tiempos de inactividad.</p>
+                    </div>
+                    <!-- Servicio 6 -->
+                    <div class="service-card glass-card reveal delay-2">
+                        <div class="service-icon"><i class="fa-solid fa-video"></i></div>
+                        <h3>Cámaras IP</h3>
+                        <p>Instalación y configuración de sistemas de videovigilancia IP, DVR/NVR y acceso remoto seguro.</p>
+                    </div>
+                    <!-- Servicio 7 -->
+                    <div class="service-card glass-card reveal">
+                        <div class="service-icon"><i class="fa-brands fa-docker"></i></div>
+                        <h3>Virtualización</h3>
+                        <p>Despliegue de entornos virtualizados con Docker, Proxmox o VMware para optimizar recursos IT.</p>
+                    </div>
+                    <!-- Servicio 8 -->
+                    <div class="service-card glass-card reveal delay-1">
+                        <div class="service-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <h3>Consultoría IT</h3>
+                        <p>Asesoramiento estratégico para modernizar la infraestructura tecnológica y mejorar procesos.</p>
+                    </div>
+                    <!-- Servicio 9 -->
+                    <div class="service-card glass-card reveal delay-2">
+                        <div class="service-icon"><i class="fa-brands fa-google"></i></div>
+                        <h3>Google Workspace</h3>
+                        <p>Implementación, migración y administración de herramientas colaborativas de Google para empresas.</p>
+                    </div>
+                    <!-- Servicio 10 -->
+                    <div class="service-card glass-card reveal">
+                        <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Seguridad Informática</h3>
+                        <p>Auditorías, implementación de firewalls, antivirus corporativos y políticas de seguridad robustas.</p>
+                    </div>
+                    <!-- Servicio 11 -->
+                    <div class="service-card glass-card reveal delay-1">
+                        <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+                        <h3>Automatización</h3>
+                        <p>Desarrollo de flujos de trabajo automatizados para tareas repetitivas, ahorrando tiempo y dinero.</p>
+                    </div>
+                    <!-- Servicio 12 -->
+                    <div class="service-card glass-card reveal delay-2">
+                        <div class="service-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                        <h3>Retiro y Entrega</h3>
+                        <p>Servicio exclusivo de logística IT para retiro y entrega de equipos de manera segura y eficiente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Estadísticas -->
+        <section id="estadisticas" class="stats section-padding">
+            <div class="container stats-grid">
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="20">0</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+                <div class="stat-card reveal delay-1">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Clientes Satisfechos</div>
+                </div>
+                <div class="stat-card reveal delay-2">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Reparaciones Exitosas</div>
+                </div>
+                <div class="stat-card reveal delay-3">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Proyectos Realizados</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Tecnologías -->
+        <section id="tecnologias" class="technologies section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Stack Tecnológico</h2>
+                    <div class="separator"></div>
+                    <p>Herramientas y tecnologías que utilizo día a día para crear soluciones robustas.</p>
+                </div>
+                
+                <div class="tech-grid reveal">
+                    <div class="tech-item" title="HTML5"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                    <div class="tech-item" title="CSS3"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                    <div class="tech-item" title="JavaScript"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                    <div class="tech-item" title="PHP"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+                    <div class="tech-item" title="Python"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                    <div class="tech-item" title="Java"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="tech-item" title="SQL Server"><i class="fa-solid fa-database"></i><span>SQL Server</span></div>
+                    <div class="tech-item" title="MySQL"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+                    <div class="tech-item" title="MongoDB"><i class="fa-solid fa-envira"></i><span>MongoDB</span></div>
+                    <div class="tech-item" title="Docker"><i class="fa-brands fa-docker"></i><span>Docker</span></div>
+                    <div class="tech-item" title="Portainer"><i class="fa-brands fa-docker"></i><span>Portainer</span></div>
+                    <div class="tech-item" title="Ubuntu"><i class="fa-brands fa-ubuntu"></i><span>Ubuntu</span></div>
+                    <div class="tech-item" title="Windows Server"><i class="fa-brands fa-windows"></i><span>Win Server</span></div>
+                    <div class="tech-item" title="Linux"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+                    <div class="tech-item" title="Oracle Cloud"><i class="fa-solid fa-cloud"></i><span>Oracle Cloud</span></div>
+                    <div class="tech-item" title="Git"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                    <div class="tech-item" title="GitHub"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                    <div class="tech-item" title="Google Workspace"><i class="fa-brands fa-google"></i><span>Workspace</span></div>
+                    <div class="tech-item" title="Nginx"><i class="fa-solid fa-server"></i><span>Nginx</span></div>
+                    <div class="tech-item" title="Apache"><i class="fa-solid fa-server"></i><span>Apache</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Experiencia (Timeline) -->
+        <section id="experiencia" class="experience section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Trayectoria Profesional</h2>
+                    <div class="separator"></div>
+                </div>
+                
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Años Luz Informática</h3>
+                            <h4>Fundador & Consultor IT Principal</h4>
+                            <p class="timeline-date">Actualidad</p>
+                            <p>Liderando proyectos integrales de infraestructura IT, mantenimiento, redes, servidores y soluciones de software para diversas empresas y clientes particulares.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Administración de Servidores e Infraestructura IT</h3>
+                            <h4>Técnico Especialista</h4>
+                            <p class="timeline-date">Experiencia Continua</p>
+                            <p>Despliegue y administración de servidores físicos y virtuales (Windows Server, Linux). Gestión de redes complejas, firewalls, y políticas de seguridad corporativas.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Desarrollo de Software</h3>
+                            <h4>Analista Programador</h4>
+                            <p class="timeline-date">Experiencia Continua</p>
+                            <p>Análisis, diseño y programación de aplicaciones web y de escritorio. Gestión de bases de datos relacionales y NoSQL adaptadas a requerimientos empresariales.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Docencia Tecnológica</h3>
+                            <h4>Profesor en el área de Programación, Informática y Robótica</h4>
+                            <p class="timeline-date">Inicios - Actualidad</p>
+                            <p>Formación de nuevas generaciones de profesionales en áreas de programación, sistemas, redes y uso avanzado de herramientas informáticas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="contact section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Contáctame</h2>
+                    <div class="separator"></div>
+                    <p>¿Tienes un proyecto en mente o necesitas asistencia técnica? Escríbeme.</p>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info glass-card reveal">
+                        <h3>Información de Contacto</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Años Luz Informática</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>contacto@anosluzinformatica.com</span>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span>+00 123 456 7890</span>
+                            </li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" class="social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container glass-card reveal delay-1">
+                        <!-- Formulario estático para GitHub Pages -->
+                        <form id="contactForm" class="contact-form" action="https://formspree.io/f/your_form_id" method="POST">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" id="email" name="email" required placeholder="tu@correo.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <input type="text" id="subject" name="subject" required placeholder="¿En qué te puedo ayudar?">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Describe tu consulta..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-rocket"></i> Años Luz Informática
+            </div>
+            <p class="footer-copy">&copy; <span id="currentYear"></span> Jonathan - Años Luz Informática. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón Volver Arriba -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Botón Flotante WhatsApp -->
+    <a href="https://wa.me/001234567890" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat de WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

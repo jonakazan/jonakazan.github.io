@@ -3,34 +3,22 @@
 // CONFIGURACIÓN GLOBAL DEL SISTEMA
 // ============================================================
 
-// Ruta absoluta al archivo de usuarios (fuera del web root idealmente)
-// Ajustá esta ruta según tu servidor
 define('USUARIOS_FILE', __DIR__ . '/../data/usuarios.txt');
 define('PROGRESO_DIR',  __DIR__ . '/../data/progreso/');
 
-// ── BASE URL — cambiá esto si movés la app a otra carpeta ──
-// Ejemplos:
-//   Local WAMP en /ciberseguridad/ → define('BASE_URL', '/ciberseguridad')
-//   Hosting en /csic/              → define('BASE_URL', '/csic')
-//   Raíz del dominio               → define('BASE_URL', '')
 define('BASE_URL', '/csic');
 
-// Nombre del curso, docente y versión
 define('CURSO_NOMBRE', 'Curso de Seguridad Informática y Ciberseguridad');
 define('CURSO_PROFESOR', 'Prof. Kazan Jonathan M.');
 define('CURSO_EMAIL_INSTRUCTOR', 'jonakazan@gmail.com');
 define('CURSO_COPYRIGHT', 'Curso generado por Prof. Kazan Jonathan M. - Año 2026 todos los derechos reservados');
 define('CURSO_VERSION', '1.8');
 
-// Clave del panel de administración (cambiá esto)
-// Generá un hash con: echo password_hash('tu_clave', PASSWORD_BCRYPT);
 define('ADMIN_PASSWORD_HASH', '$2y$10$eWieCiyGT.EV7YG0EtxUa.Sl0xpqLHz5S03TNtualYIv9Izt8BaFy');
-define('ADMIN_USER', 'admin');
+define('ADMIN_USER', 'jonathan');
 
-// Tiempo de sesión en segundos (1 hora)
 define('SESSION_TIMEOUT', 3600);
 
-// Módulos del curso y sus páginas (en orden)
 define('MODULOS', [
     'modulo1' => [
         'titulo' => 'Módulo 1: Fundamentos de la Ciberseguridad y Gestión de Riesgos',
@@ -106,10 +94,10 @@ define('MODULOS', [
             'quiz'      => 'Cuestionario de Evaluación',
         ]
     ],
-    // Módulos futuros se agregan aquí
+    // Módulos futuros
 ]);
 
-// Total de páginas del curso
+
 function getTotalPaginas(): int {
     $total = 0;
     foreach (MODULOS as $modulo) {

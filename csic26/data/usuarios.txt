@@ -1,0 +1,1 @@
+alumno@ejemplo.com|$2y$10$dHE4IFIp6B9O79p4bI7OCO.wAZP5YDiwWb2Un1QkObjw9sSCfZriK|Alumno de Prueba|activo

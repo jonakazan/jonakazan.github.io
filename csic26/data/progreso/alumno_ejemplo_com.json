@@ -1,0 +1,589 @@
+{
+    "paginas_vistas": [
+        "modulo1\/intro",
+        "modulo1\/pilares",
+        "modulo1\/activos",
+        "modulo1\/triada",
+        "modulo1\/riesgos",
+        "modulo1\/quiz",
+        "modulo2\/contrasenas",
+        "modulo2\/gestores",
+        "modulo2\/dosfactores",
+        "modulo2\/control",
+        "modulo3\/malware",
+        "modulo3\/tipos",
+        "modulo3\/botnets",
+        "modulo3\/quiz",
+        "modulo4\/ingenieria",
+        "modulo4\/variantes",
+        "modulo4\/actores",
+        "modulo4\/quiz",
+        "modulo5\/wifi",
+        "modulo5\/navegacion",
+        "modulo5\/quiz",
+        "modulo6\/moviles",
+        "modulo6\/almacenamiento",
+        "modulo6\/respaldos",
+        "modulo7\/huella",
+        "modulo7\/brechas",
+        "modulo7\/criptografia",
+        "modulo8\/vacunas",
+        "modulo8\/zerotrust",
+        "modulo8\/plan",
+        "modulo2\/quiz",
+        "modulo6\/quiz",
+        "modulo7\/quiz",
+        "modulo8\/quiz"
+    ],
+    "quiz_resultados": {
+        "modulo1": {
+            "respuestas": {
+                "1": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La seguridad informática no es solo un antivirus. Es un conjunto de hábitos y decisiones cotidianas que todos debemos adoptar."
+                },
+                "2": {
+                    "seleccionada": "B",
+                    "correcta": "A",
+                    "es_correcta": false,
+                    "explicacion": "Los dispositivos almacenan activos de información valiosísimos: fotos, datos bancarios, conversaciones privadas y documentos de trabajo."
+                },
+                "3": {
+                    "seleccionada": "A",
+                    "correcta": "A",
+                    "es_correcta": true,
+                    "explicacion": "La Seguridad de la Información es el concepto más amplio (incluye papel y voz), mientras que la Ciberseguridad se especializa en el ciberespacio e Internet."
+                },
+                "4": {
+                    "seleccionada": "B",
+                    "correcta": "C",
+                    "es_correcta": false,
+                    "explicacion": "La alteración o modificación no autorizada de datos viola directamente el principio de Integridad: los datos ya no son exactos y completos."
+                },
+                "5": {
+                    "seleccionada": "C",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La imposibilidad de acceder a la información (aunque no fue robada ni modificada) afecta la Disponibilidad: el servicio no estaba accesible cuando se necesitaba."
+                },
+                "6": {
+                    "seleccionada": "B",
+                    "correcta": "B",
+                    "es_correcta": true,
+                    "explicacion": "La vulnerabilidad es la debilidad previa que existe en el sistema o en nuestros hábitos. Sin vulnerabilidad, la amenaza no puede materializarse."
+                },
+                "7": {
+                    "seleccionada": "C",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La ingeniería social (engañar a las personas) es la técnica más usada. Explotan emociones como la urgencia, el miedo y la curiosidad para que actuemos sin reflexionar."
+                },
+                "8": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El factor humano es el eslabón más importante. Si una persona decide entregar su contraseña voluntariamente ante un engaño, ningún antivirus puede evitarlo."
+                },
+                "9": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Los activos digitales son los recursos de información y servicios con valor personal o laboral: fotos, cuentas, documentos, accesos bancarios."
+                },
+                "10": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La pausa reflexiva y la verificación independiente (sin usar los links del mensaje) son la defensa más efectiva ante la ingeniería social."
+                }
+            },
+            "puntaje": 2,
+            "total": 10,
+            "porcentaje": 20,
+            "fecha": "2026-10-04 22:13:33"
+        },
+        "modulo2": {
+            "respuestas": {
+                "1": {
+                    "seleccionada": "A",
+                    "correcta": "A",
+                    "es_correcta": true,
+                    "explicacion": "La contraseña es el cerrojo principal de entrada a tu espacio digital personal, igual que la llave de tu casa te da acceso a tu hogar."
+                },
+                "2": {
+                    "seleccionada": "A",
+                    "correcta": "C",
+                    "es_correcta": false,
+                    "explicacion": "Luna-Verde-Sobre-El-Mar#2026 cumple con ser una frase de acceso (passphrase) larga, combinando palabras, mayúsculas, números y símbolos. Es prácticamente imposible de adivinar."
+                },
+                "3": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Esto se llama ataque de reutilización de credenciales (Credential Stuffing). Una sola filtración de datos puede comprometer todas tus cuentas si usás la misma contraseña."
+                },
+                "4": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Un gestor de contraseñas es una bóveda digital cifrada que simplifica la gestión de contraseñas únicas y complejas para cada servicio, sin necesitar memorizar todas."
+                },
+                "5": {
+                    "seleccionada": "C",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Exponer claves físicamente o transmitirlas en texto plano anula completamente la seguridad que buscabas al crearlas."
+                },
+                "6": {
+                    "seleccionada": "B",
+                    "correcta": "B",
+                    "es_correcta": true,
+                    "explicacion": "El 2FA añade un factor de posesión o biometría independiente de la clave. Aunque te roben la contraseña, sin el segundo factor no pueden entrar."
+                },
+                "7": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Las Passkeys son tecnología FIDO que elimina el uso de contraseñas vulnerables al phishing, asociando el acceso a tu dispositivo físico y biometría."
+                },
+                "8": {
+                    "seleccionada": "B",
+                    "correcta": "A",
+                    "es_correcta": false,
+                    "explicacion": "El Principio de Mínimo Privilegio limita la superficie de impacto reduciendo permisos al mínimo indispensable. Si una cuenta es comprometida, el daño queda contenido."
+                },
+                "9": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Los logs de trazabilidad mantienen el registro de eventos para auditoría y respuesta ante incidentes. Son la memoria del sistema."
+                },
+                "10": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Regla fundamental: las instituciones legítimas (bancos, correo, redes sociales) NUNCA solicitan contraseñas por canales no seguros como mensajes o emails."
+                }
+            },
+            "puntaje": 2,
+            "total": 10,
+            "porcentaje": 20,
+            "fecha": "2026-10-04 22:14:14"
+        },
+        "modulo3": {
+            "respuestas": {
+                "1": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Malware = Malicious + Software. Es cualquier programa diseñado con mala intención para dañar, infiltrarse o robar información de un dispositivo."
+                },
+                "2": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El virus necesita de la interacción del usuario (abrir un archivo) para activarse. El gusano (worm) es autónomo: se propaga por la red sin que el usuario haga nada."
+                },
+                "3": {
+                    "seleccionada": "A",
+                    "correcta": "A",
+                    "es_correcta": true,
+                    "explicacion": "Aplica la metáfora del Caballo de Troya: engaño visual para introducir código malicioso. Se disfraza de algo útil para que el usuario lo instale voluntariamente."
+                },
+                "4": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El Ransomware secuestra la información cifrándola (bloqueándola) y exige un pago de rescate para devolver el acceso. Es una de las amenazas más destructivas actualmente."
+                },
+                "5": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Tratar con criminales no ofrece ninguna garantía. Pagar el rescate no asegura recuperar los archivos y sostiene la industria del delito. La única solución real son los backups previos."
+                },
+                "6": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El Spyware\/Keylogger captura eventos de teclado y monitorea actividades de forma furtiva. Su objetivo es robar contraseñas, datos bancarios e información personal sin que el usuario se entere."
+                },
+                "7": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Una botnet es un reclutamiento de equipos comprometidos para uso distribuido malintencionado. Los dueños no saben que sus dispositivos son \"zombis\" controlados por un atacante."
+                },
+                "8": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El DDoS satura los recursos del servidor para afectar el pilar de Disponibilidad de la Tríada CIA. El servicio queda fuera de línea para usuarios legítimos."
+                },
+                "9": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Los delincuentes usan la IA generativa para sofisticar la ingeniería social (phishing sin errores), clonar voces (deepfakes) y automatizar la búsqueda de vulnerabilidades."
+                },
+                "10": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La copia de respaldo en un dispositivo externo y desconectado es la única salvaguarda garantizada frente al ransomware. Si los archivos están respaldados, el cifrado del atacante pierde todo su poder de extorsión."
+                }
+            },
+            "puntaje": 1,
+            "total": 10,
+            "porcentaje": 10,
+            "fecha": "2026-10-04 22:14:42"
+        },
+        "modulo4": {
+            "respuestas": {
+                "1": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La ingeniería social se enfoca en manipular el factor humano y sus emociones (urgencia, miedo, empatía) en lugar de vulnerar fallas de hardware o software."
+                },
+                "2": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Combina los tres ingredientes clásicos del phishing: urgencia desmedida (5 minutos), amenaza de bloqueo inminente y un enlace hacia un destino no verificado."
+                },
+                "3": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El Smishing es la modalidad de phishing canalizada a través de mensajes de texto cortos (SMS) o mensajería de chat (WhatsApp)."
+                },
+                "4": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Vishing proviene de Voice Phishing: el atacante usa llamadas de voz e impostación de autoridad para extraer códigos de un solo uso o tokens."
+                },
+                "5": {
+                    "seleccionada": "A",
+                    "correcta": "A",
+                    "es_correcta": true,
+                    "explicacion": "El Quishing es la explotación del canal de códigos QR físicos (calcomanías pegadas en tótems\/mesas) o digitales para dirigir a pasarelas fraudulentas."
+                },
+                "6": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Patrón típico de fraude en comercio electrónico: precio absurdo e irresistible combinado con exigencia de pago inmediato por transferencia no reversible."
+                },
+                "7": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La línea divisoria fundamental es la autorización explícita previa y el propósito legítimo-defensivo frente a la ilegalidad maliciosa del cracker."
+                },
+                "8": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Los navegadores no pueden escanear virus en tu disco. Son falsas alarmas creadas para inducirte a llamar y cobrarte o instalar troyanos de acceso remoto."
+                },
+                "9": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El hacktivismo está motivado por causas ideológicas, sociales o políticas, utilizando el ciberespacio como medio de protesta y disrupción."
+                },
+                "10": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Principio de Ruptura de Canal: nunca validar la autenticidad usando el mismo canal dudoso que te contactó. Hay que cortar e iniciar contacto por vías oficiales verificadas."
+                }
+            },
+            "puntaje": 1,
+            "total": 10,
+            "porcentaje": 10,
+            "fecha": "2026-10-04 22:15:19"
+        },
+        "modulo5": {
+            "respuestas": {
+                "1": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "En una red abierta compartida, cualquier persona en el mismo radio de alcance puede capturar el tráfico que viaja por el aire si no está protegido."
+                },
+                "2": {
+                    "seleccionada": "A",
+                    "correcta": "A",
+                    "es_correcta": true,
+                    "explicacion": "Las claves de fábrica (como admin\/admin) son públicas y los atacantes las prueban primero. Cambiarlas cierra la puerta trasera más elemental."
+                },
+                "3": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Segmenta la red: las visitas y los dispositivos inteligentes (IoT) navegan por Internet sin poder ver ni escanear las computadoras con tus archivos privados."
+                },
+                "4": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "HTTPS significa HTTP + SSL\/TLS: los datos viajan dentro de un túnel cifrado que protege contraseñas y datos bancarios contra espías en la red."
+                },
+                "5": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El candado solo certifica el cifrado del canal, no la moralidad del dueño. Hoy los ciberdelincuentes instalan certificados HTTPS en sus páginas de phishing."
+                },
+                "6": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Es un punto de acceso impostor que clona el nombre de una cafetería o aeropuerto para actuar como intermediario (Man-in-the-Middle) y capturar tráfico."
+                },
+                "7": {
+                    "seleccionada": "A",
+                    "correcta": "A",
+                    "es_correcta": true,
+                    "explicacion": "La VPN encapsula y encripta todo tu tráfico desde tu dispositivo hasta el servidor de destino, volviéndolo ilegible para curiosos en la red pública."
+                },
+                "8": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "WPA2 y WPA3 son los estándares modernos y robustos. WEP y WPA inicial son tecnologías obsoletas que se descifran en pocos minutos."
+                },
+                "9": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Técnica de Typosquatting \/ phishing: usan nombres casi idénticos para engañar a usuarios distraídos y capturar credenciales bancarias."
+                },
+                "10": {
+                    "seleccionada": "A",
+                    "correcta": "A",
+                    "es_correcta": true,
+                    "explicacion": "El protocolo WPS utiliza un PIN numérico vulnerable a ataques de fuerza bruta que debilita gravemente la seguridad de la contraseña del Wi-Fi."
+                }
+            },
+            "puntaje": 3,
+            "total": 10,
+            "porcentaje": 30,
+            "fecha": "2026-10-04 22:15:58"
+        },
+        "modulo6": {
+            "respuestas": {
+                "1": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Previene la exposición no autorizada de tokens OTP o códigos SMS de seguridad en la pantalla de bloqueo ante miradas indiscretas o robo del celular."
+                },
+                "2": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Los repositorios no oficiales no auditan el código; instalar un archivo .APK externo suele introducir troyanos bancarios, spyware o adware agresivo."
+                },
+                "3": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Aplica el principio de mínimo privilegio: una linterna solo necesita permiso para el flash LED; pedir contactos y GPS delata intenciones maliciosas de recolección de datos."
+                },
+                "4": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Técnica de Drop USB \/ BadUSB: los atacantes explotan la curiosidad dejando memorias infectadas para saltar las defensas perimetrales e infiltrar redes."
+                },
+                "5": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Redundancia mínima: 1 archivo original de trabajo + al menos 2 respaldos adicionales para garantizar que si un archivo falla, siempre queden dos copias."
+                },
+                "6": {
+                    "seleccionada": "A",
+                    "correcta": "A",
+                    "es_correcta": true,
+                    "explicacion": "Diversificación tecnológica: evitar puntos únicos de fallo. Si un disco mecánico se golpea o falla, la copia en nube o memoria sólida permanece accesible."
+                },
+                "7": {
+                    "seleccionada": "B",
+                    "correcta": "B",
+                    "es_correcta": true,
+                    "explicacion": "Aislamiento geográfico (Offsite): protege tus activos más valiosos contra robos, roturas edilicias, inundaciones o incendios en la sede principal."
+                },
+                "8": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Aislamiento offline (Air-Gap): si el disco queda conectado permanentemente, el ransomware cifrará la unidad de respaldo impidiendo recuperar tus archivos."
+                },
+                "9": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Permite respuesta rápida ante pérdida o robo: ubicar el celular por GPS, bloquearlo remotamente e iniciar el borrado seguro para resguardar la privacidad."
+                },
+                "10": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La mejor protección combina redundancia 3-2-1, almacenamiento periódico y verificación periódica de restauración para certificar la integridad de los datos."
+                }
+            },
+            "puntaje": 2,
+            "total": 10,
+            "porcentaje": 20,
+            "fecha": "2026-10-04 22:16:42"
+        },
+        "modulo7": {
+            "respuestas": {
+                "1": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Diferenciación clave entre los datos entregados voluntariamente (activa) vs. la telemetría y rastreo automático (pasiva) que registran cookies y servidores."
+                },
+                "2": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Los códigos de barras y QR contienen el código de reserva (PNR) y datos del pasajero legibles con cualquier app móvil para modificar o anular el vuelo."
+                },
+                "3": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Es la exfiltración masiva no autorizada de bases de datos corporativas con información privada de miles o millones de clientes."
+                },
+                "4": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Suplantación no consentida de la identidad legal o digital de un tercero para obtener beneficios financieros, créditos o cometer estafas."
+                },
+                "5": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Cifrado asimétrico E2EE: el contenido viaja blindado de punta a punta y la clave matemática de descifrado reside solo en el dispositivo receptor."
+                },
+                "6": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La firma electrónica simple carece de no repudio: la imagen es fácilmente recortable y pegable en cualquier otro documento, sin vincular matemáticamente el contenido."
+                },
+                "7": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Integridad e inmutabilidad garantizadas por criptografía asimétrica y certificados digitales: si alguien altera una sola coma, la firma se anula."
+                },
+                "8": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Frena el ataque de Credential Stuffing en cascada: cambiar la contraseña en el sitio vulnerado y en cualquier otro donde se haya repetido."
+                },
+                "9": {
+                    "seleccionada": "B",
+                    "correcta": "B",
+                    "es_correcta": true,
+                    "explicacion": "Oversharing: sobreexposición voluntaria que amplía la superficie de ataque y regala información para ingeniería social."
+                },
+                "10": {
+                    "seleccionada": "B",
+                    "correcta": "B",
+                    "es_correcta": true,
+                    "explicacion": "Fase de reconocimiento: la información que dejamos en nuestra huella digital permite a los delincuentes armar engaños hiperpersonalizados de gran efectividad."
+                }
+            },
+            "puntaje": 2,
+            "total": 10,
+            "porcentaje": 20,
+            "fecha": "2026-10-04 22:17:30"
+        },
+        "modulo8": {
+            "respuestas": {
+                "1": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Aislar la respuesta impulsiva ante la urgencia artificial provocada por el atacante para recuperar el juicio crítico."
+                },
+                "2": {
+                    "seleccionada": "A",
+                    "correcta": "C",
+                    "es_correcta": false,
+                    "explicacion": "Ruptura de canal: nunca validar una sospecha dentro del mismo chat entrante desconocido. Se debe contactar a la persona por su número habitual fuera del mensaje."
+                },
+                "3": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Paradigma Zero Trust: asumir que la red puede estar comprometida y verificar continuamente cada solicitud de acceso."
+                },
+                "4": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Redundancia defensiva: disponer de múltiples barreras (PIN, cifrado, 2FA, backups) para que el fallo de una capa no comprometa todo el sistema."
+                },
+                "5": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Las actualizaciones aplican parches a brechas descubiertas en el software, cerrando las puertas de entrada al malware."
+                },
+                "6": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Contención inmediata: aislar el equipo de la red frena la propagación lateral del virus hacia otros dispositivos y corta la comunicación con el atacante."
+                },
+                "7": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "Hacer el backup es una medida preventiva de la fase Proteger; usarlo para restablecer los datos es el corazón de la fase Recuperar."
+                },
+                "8": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "La mejor tecnología falla si un usuario entrega la clave, pero una persona consciente con hábitos sólidos frena la inmensa mayoría de las amenazas."
+                },
+                "9": {
+                    "seleccionada": "A",
+                    "correcta": "C",
+                    "es_correcta": false,
+                    "explicacion": "Hacer clic precipitadamente es justamente la conducta de riesgo que las vacunas digitales buscan erradicar mediante la pausa de 5 segundos."
+                },
+                "10": {
+                    "seleccionada": "A",
+                    "correcta": "B",
+                    "es_correcta": false,
+                    "explicacion": "El objetivo final de la ciberseguridad: transformar la incertidumbre y el temor en tranquilidad, cultura preventiva y libertad digital."
+                }
+            },
+            "puntaje": 0,
+            "total": 10,
+            "porcentaje": 0,
+            "fecha": "2026-10-04 22:18:02"
+        }
+    },
+    "completado": true,
+    "fecha_inicio": "2026-10-04 20:58:35",
+    "ultima_pagina": "modulo8\/quiz",
+    "ultima_actividad": "2026-10-04 22:17:46",
+    "fecha_completado": "2026-10-04 20:59:29"
+}
